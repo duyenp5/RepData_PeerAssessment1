@@ -26,7 +26,7 @@ output: html_document
   hist(total_steps,col='slateblue3',xlab = "Number of total steps", main = "Total number of steps taken each day")
 ```
 
-<img src="figure/unnamed-chunk-19-1.png" title="plot of chunk unnamed-chunk-19" alt="plot of chunk unnamed-chunk-19" style="display: block; margin: auto;" />
+<img src="unnamed-chunk-19-1.png" title="plot of chunk unnamed-chunk-19" alt="plot of chunk unnamed-chunk-19" style="display: block; margin: auto;" />
 ### 3. Mean and median of the total number of steps taken per day
 
 ```r
@@ -46,7 +46,7 @@ Median of total number of steps taken per day: **10395**
   print(g1)
 ```
 
-<img src="figure/unnamed-chunk-21-1.png" title="plot of chunk unnamed-chunk-21" alt="plot of chunk unnamed-chunk-21" style="display: block; margin: auto;" />
+<img src="unnamed-chunk-21-1.png" title="plot of chunk unnamed-chunk-21" alt="plot of chunk unnamed-chunk-21" style="display: block; margin: auto;" />
 ### 2. The 5-minute interval contains maximum number of steps
 
 ```r
@@ -87,7 +87,7 @@ There are **2304** missing values
   hist(total_steps2,col='slateblue3',xlab = "Number of total steps", main = "Total number of steps taken each day (imputed data)")
 ```
 
-<img src="figure/unnamed-chunk-26-1.png" title="plot of chunk unnamed-chunk-26" alt="plot of chunk unnamed-chunk-26" style="display: block; margin: auto;" />
+<img src="unnamed-chunk-26-1.png" title="plot of chunk unnamed-chunk-26" alt="plot of chunk unnamed-chunk-26" style="display: block; margin: auto;" />
 
 ```r
   meanSteps2 <- format(round(mean(total_steps2),0),scientific = FALSE)
@@ -119,4 +119,4 @@ filled_df$dow <- sapply(filled_df$date, FUN = day_of_week)
   print(g2)
 ```
 
-<img src="figure/unnamed-chunk-28-1.png" title="plot of chunk unnamed-chunk-28" alt="plot of chunk unnamed-chunk-28" style="display: block; margin: auto;" />
+<img src="unnamed-chunk-28-1.png" title="plot of chunk unnamed-chunk-28" alt="plot of chunk unnamed-chunk-28" style="display: block; margin: auto;" />
