@@ -26,7 +26,7 @@ output: html_document
   hist(total_steps,col='slateblue3',xlab = "Number of total steps", main = "Total number of steps taken each day")
 ```
 
-<img src="figure/unnamed-chunk-19-1.png" title="plot of chunk unnamed-chunk-19" alt="plot of chunk unnamed-chunk-19" style="display: block; margin: auto;" />
+<img src="unnamed-chunk-19-1.png" title="plot of chunk unnamed-chunk-19" alt="plot of chunk unnamed-chunk-19" style="display: block; margin: auto;" />
 ### 3. Mean and median of the total number of steps taken per day
 
 ```r
